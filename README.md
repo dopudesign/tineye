@@ -1,6 +1,8 @@
 # tineye
 A ruby class for interacting with the TinEye API
 
+Make calls using the following command `Tineye.query('https://made-up-bucket.s3.com/url/to/image.jpg')` to recieve a list of all matches, or hopefully an empty set so you know the image is okay to use.
+
 ```
 require 'httparty'
 require 'securerandom'
